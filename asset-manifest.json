@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/VADER-React-UI/static/css/main.55b0c97d.chunk.css",
+    "main.js": "/VADER-React-UI/static/js/main.4d627416.chunk.js",
+    "main.js.map": "/VADER-React-UI/static/js/main.4d627416.chunk.js.map",
+    "runtime-main.js": "/VADER-React-UI/static/js/runtime-main.9d52ae37.js",
+    "runtime-main.js.map": "/VADER-React-UI/static/js/runtime-main.9d52ae37.js.map",
+    "static/js/2.853c85d4.chunk.js": "/VADER-React-UI/static/js/2.853c85d4.chunk.js",
+    "static/js/2.853c85d4.chunk.js.map": "/VADER-React-UI/static/js/2.853c85d4.chunk.js.map",
+    "static/js/3.047c2fe3.chunk.js": "/VADER-React-UI/static/js/3.047c2fe3.chunk.js",
+    "static/js/3.047c2fe3.chunk.js.map": "/VADER-React-UI/static/js/3.047c2fe3.chunk.js.map",
+    "index.html": "/VADER-React-UI/index.html",
+    "static/css/main.55b0c97d.chunk.css.map": "/VADER-React-UI/static/css/main.55b0c97d.chunk.css.map",
+    "static/js/2.853c85d4.chunk.js.LICENSE.txt": "/VADER-React-UI/static/js/2.853c85d4.chunk.js.LICENSE.txt",
+    "static/media/Pink-V-Alternate.ea88fc51.png": "/VADER-React-UI/static/media/Pink-V-Alternate.ea88fc51.png",
+    "static/media/logo.6ce24c58.svg": "/VADER-React-UI/static/media/logo.6ce24c58.svg",
+    "static/media/vaderLogo_Vader-text_logo.936750a2.png": "/VADER-React-UI/static/media/vaderLogo_Vader-text_logo.936750a2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d52ae37.js",
+    "static/js/2.853c85d4.chunk.js",
+    "static/css/main.55b0c97d.chunk.css",
+    "static/js/main.4d627416.chunk.js"
+  ]
+}
