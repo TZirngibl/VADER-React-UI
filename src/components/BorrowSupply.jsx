@@ -7,36 +7,38 @@ const BorrowSupply = () => {
 
     return (
         <div className="flex flex-col w-full justify-around items-center text-white">
-<div className="flex flex-row justify-center items-center p-4 w-2/3  rounded p-2 px-4 mx-auto">
+            <div className="flex flex-row justify-center items-center p-4 rounded p-2 px-4 w-full lg:w-2/3">
                 <div className="flex justify-center items-center flex-col w-1/3 text-white">
-                    <span className="text-xl text-blue-400">Supply Balance</span>
-                    <span className="text-3xl">$0</span>
+                    <span className="text-xl text-blue-400 text-center">Supply Balance</span>
+                    <span className="text-3xl text-center">$0</span>
                 </div>
-                <div className="flex justify-center items-center flex-col w-48 h-48 border-2 border-green-500 rounded-full text-white">
+                <div className="flex justify-center items-center flex-col h-28 w-28 lg:w-48 lg:h-48 border-2 border-green-500 rounded-full text-white">
                     <span className="text-xl">Net APY</span>
                     <span className="text-3xl">...</span>
                 </div>
                 <div className="flex justify-center items-center flex-col w-1/3 text-white">
-                    <span className="text-xl text-pink-400">Borrow Balance</span>
-                    <span className="text-3xl">$0</span>
+                    <span className="text-xl text-pink-400 text-center">Borrow Balance</span>
+                    <span className="text-3xl text-center">$0</span>
                 </div>
             </div>
 
-            <div className="flex flex-row justify-center p-4 w-2/3 className rounded p-2 px-4 mx-auto">
-                <div className="flex justify-end items-end flex-row w-1/5 text-white">
-                    <span className="text-sm text-gray-300">Borrow Limit</span>
+            <div className="flex flex-row justify-center p-4 w-full lg:w-2/3 className rounded p-2 px-4 mx-auto relative">
+                <span className="text-sm text-gray-300 whitespace-nowrap absolute top-0">Borrow Limit</span>
+                <div className="flex justify-end items-start flex-row w-1/5 text-white">  
                     <span className="text-sm mx-2">$0</span>
                 </div>
-                <div className="flex justify-center items-center flex-row w-3/5 h-2 relative top-1 border-b-2 border-gray-800 text-white">
+
+                <div className="flex justify-center items-center flex-row w-full h-2 relative top-1 border-b-2 border-gray-800 text-white">
                     
                 </div>
                 <div className="flex justify-start items-start flex-row w-1/5 text-white">
                     <span className="text-sm ml-2">$0</span>
                 </div>
             </div>
-            <div className="flex flex-row justify-center p-4 w-3/4  rounded p-2 px-4 mx-auto">
+
+            <div className="flex flex-col lg:flex-row justify-center items-center p-4 w-full lg:w-3/4  rounded p-2 px-4 mx-auto">
                 
-                <div className="flex flex-col w-1/2 p-2 px-4 bg-gradient-to-r from-pink-400 to-blue-500 rounded-xl m-2">
+                <div className="flex flex-col w-full lg:w-1/2 p-2 px-4 bg-gradient-to-r from-pink-400 to-blue-500 rounded-xl m-2">
                     <span className="text-xl">Supply Markets </span>
                     <table className="w-full table-auto">
                         <thead>
@@ -141,7 +143,7 @@ const BorrowSupply = () => {
                         </tbody>
                     </table>
                 </div>
-                <div className="flex flex-col w-1/2 p-2 px-4 bg-gradient-to-r from-blue-500 to-pink-400 rounded-xl m-2">
+                <div className="flex flex-col w-full lg:w-1/2 p-2 px-4 bg-gradient-to-r from-blue-500 to-pink-400 rounded-xl m-2">
                     <span className="text-xl">Borrow Markets </span>
                     <table className="w-full table-auto">
                         <thead>

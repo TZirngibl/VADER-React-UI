@@ -33,12 +33,12 @@ const Swap = () => {
                 </div>
                 <div className="min-w-full flex flex-row justify-between items-center">
                     <div className="min-w-full flex flex-row justify-between items-between ">
-                        <div className="text-white relative flex flex-col text-left w-1/2 h-64 bg-black bg-opacity-80 border border-white m-4 mr-1 p-2 justify-between rounded">
+                        <div className="text-white relative flex flex-col text-left w-1/2 h-52 bg-black bg-opacity-80 border border-white m-4 mr-1 p-2 justify-between rounded">
                             <p>From</p>
                             
                             <TokenSelect />
                         </div>
-                        <div className="text-white relative flex flex-col text-left w-1/2 h-64 bg-black bg-opacity-80 border border-white m-4 ml-1 p-2 mb-0 justify-between rounded">
+                        <div className="text-white relative flex flex-col text-left w-1/2 h-52 bg-black bg-opacity-80 border border-white m-4 ml-1 p-2 mb-0 justify-between rounded">
 
                             <p>To</p>
                             

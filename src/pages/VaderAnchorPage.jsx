@@ -1,9 +1,12 @@
 const VaderAnchorPage = () => {
     return (
-        <div className="w-full flex flex-col justify-center">
+        <div className="flex justify-center items-center w-full">
+            
+            
+            <div className="w-full lg:w-2/3 flex flex-col justify-center">
             <h1 className="justify-center min-w-full  text-center text-3xl font-extrabold text-white">Anchor</h1>
-            <div class="W-1/2 flex flex-row justify-center p-10 pt-0 h-full">
-                <div class="w-1/2 m-2 flex flex-col rounded-xl bg-gray-200">
+            <div class="w-full flex flex-col md:flex-row justify-center p-10 pt-0 h-full">
+                <div class="w-full lg:W-1/2 m-2 flex flex-col rounded-xl bg-gray-200">
                     <div class="p-4 pb-0 min-w-full flex flex-row  justify-between">
                         <div class="mb-2">
                             <span class="text-xl mb-2">
@@ -29,7 +32,7 @@ const VaderAnchorPage = () => {
                     </div>
                 </div>
 
-                <div class="w-1/2 m-2 flex justify-center rounded-xl bg-gray-200">
+                <div class="w-full lg:W-1/2 m-2 flex justify-center rounded-xl bg-gray-200">
                     <div class="p-4 flex flex-col min-w-full">
                         <span class="text-xl mb-2">
                             VADER exchange rate
@@ -128,12 +131,14 @@ const VaderAnchorPage = () => {
                         </div>
                     </div>
                 </div>
-                
+                </div>
+            </div>
                 
                 
 
-            </div>
+
         </div>
+        
     )
 }
 

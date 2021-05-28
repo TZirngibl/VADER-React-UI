@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 const VaderPoolsPage = () => {
     return (
         <div className="flex justify-center items-center flex-col w-full lg:max-w-xl mx-auto">
@@ -10,8 +12,8 @@ const VaderPoolsPage = () => {
                 <div className="your-liquidity-container flex flex-row min-w-full justify-between my-2">
                     <div className="text-xl p-4 text-white">Your Liquidity</div>
                     <div className="flex flex-row">
-                        <a href="#ex1" rel="modal:open" className="border border-pink-400 text-pink-400 shadow rounded px-4 py-2 m-auto select-none font-semibold mr-2">Create A Pair</a>
-                        <a className="m-2 bg-pink-400 text-white shadow rounded px-4 py-2 select-none font-semibold m-auto">Add Liquidity</a>
+                        <Link to="/Create" className="border border-pink-400 text-pink-400 shadow rounded px-4 py-2 m-auto select-none font-semibold mr-2">Create A Pair</Link>
+                        <Link to="/Add" className="m-2 bg-pink-400 text-white shadow rounded px-4 py-2 select-none font-semibold m-auto">Add Liquidity</Link>
                     </div>
                 </div>
                 <div className="p-4 rounded-xl bg-gray-200 flex flex-col  text-center h-24 items-center justify-center">

@@ -20,6 +20,7 @@ import VaderPoolsPage from './pages/VaderPoolsPage';
 import VaderStatsPage from './pages/VaderStatsPage';
 import CoinDetailPage from './pages/CoinDetailPage';
 import VaderCreatePairPage from './pages/VaderCreatePairPage';
+import VaderAddLiquidityPage from './pages/VaderAddLiquidityPage';
 
 //reducer for managing state (redux pattern)
 function reducer(state, action){
@@ -48,7 +49,7 @@ function App() {
 
         </div>
 
-
+        
         <Route path='/coins/:id' component={CoinDetailPage} />
         <Route exact path='/Stats' component={VaderStatsPage} />
         <Route exact path='/Swap' component={VaderSwapPage} />
@@ -57,6 +58,8 @@ function App() {
         <Route exact path='/Staking' component={VaderStakingPage} />
         <Route exact path='/Anchor' component={VaderAnchorPage} />
         <Route exact path='/Lending' component={VaderLendingPage} />
+        <Route exact path='/Create' component={VaderCreatePairPage} />
+        <Route exact path ='/Add' component={VaderAddLiquidityPage} />
         
         </Router>
     </WatchListContextProvider>
